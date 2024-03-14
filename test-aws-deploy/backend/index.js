@@ -21,7 +21,7 @@ app.get("/api", (req, res) => {
   res.json({ message: "Hello from Express!" });
 });
 app.get("/api/hello", (req, res) => {
-  res.json({ message: "Hi again from Express!" });
+  res.json({ message: "Hi again and again from Express!" });
 });
 
 // The "catchall" handler: for any request that doesn't
